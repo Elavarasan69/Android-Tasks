@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="frameLayout_height">490dp</dimen>
+    <dimen name="cardView_margin">20dp</dimen>
+    <dimen name="cardView_height2">450dp</dimen>
+    <dimen name="cardView_margin2">5dp</dimen>
+    <dimen name="cardView_radius">25dp</dimen>
+    <dimen name="button_width">150dp</dimen>
+    <dimen name="button_height">60dp</dimen>
+    <dimen name="button_margin">30dp</dimen>
+    <dimen name="recyclerView_marginTop">10dp</dimen>
+    <dimen name="recyclerView_width">370dp</dimen>
+    <dimen name="recyclerView_height">429dp</dimen>
+    <dimen name="listView_padding">10dp</dimen>
+    <dimen name="listView_width">350dp</dimen>
+    <dimen name="listView_height">450dp</dimen>
+    <dimen name="listView_divider">20dp</dimen>
+    <dimen name="card_view_design_margin">10dp</dimen>
+    <dimen name="card_elevation">6dp</dimen>
+    <dimen name="relative_layout_padding">5dp</dimen>
+    <dimen name="shapeableImageView_width">70dp</dimen>
+    <dimen name="shapeableImageView_height">70dp</dimen>
+    <dimen name="shapeableImageView_marginStart">15dp</dimen>
+    <dimen name="shapeableImageView_marginTop">20sp</dimen>
+    <dimen name="textView_marginStart">15dp</dimen>
+    <dimen name="textView_marginTop">35dp</dimen>
+    <dimen name="textView_marginTop2">10dp</dimen>
+    <dimen name="textView_fontSize_1">23sp</dimen>
+    <dimen name="textView_fontSize_2">20sp</dimen>
+
+</resources>

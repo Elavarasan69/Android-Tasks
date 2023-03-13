@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="button_radius">40dp</dimen>
+    <dimen name="analogClockWidth">165dp</dimen>
+    <dimen name="analogClockHeight">200dp</dimen>
+    <dimen name="analogClockMarginTop">100dp</dimen>
+    <dimen name="textClockMarginStart">5dp</dimen>
+    <dimen name="textClockMarginTop">165dp</dimen>
+    <dimen name="textViewMarginStart">5dp</dimen>
+    <dimen name="textViewMarginTop">165dp</dimen>
+    <dimen name="marginStart">20dp</dimen>
+    <dimen name="textClockFont">20sp</dimen>
+    <dimen name="textviewFont">25sp</dimen>
+    <dimen name="buttonWidth">160dp</dimen>
+    <dimen name="ButtonMarginStart">30dp</dimen>
+    <dimen name="ButtonMarginTop">105dp</dimen>
+    <dimen name="Button2MarginStart">30dp</dimen>
+</resources>

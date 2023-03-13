@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/relative_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/light_white"
+    tools:context=".TimeDetailActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/teal_200"
+        app:title="Shared Preferences Sample"
+        app:titleTextColor="@color/white" />
+
+    <AnalogClock
+        android:id="@+id/analog_clock_ac"
+        android:layout_width="@dimen/analogClockWidth"
+        android:layout_height="@dimen/analogClockHeight"
+        android:layout_below="@+id/toolbar"
+        android:layout_marginStart="@dimen/marginStart"
+        android:layout_marginTop="@dimen/analogClockMarginTop" />
+
+    <TextClock
+        android:id="@+id/current_time_tc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/toolbar"
+        android:layout_marginStart="@dimen/textClockMarginStart"
+        android:layout_marginTop="@dimen/textClockMarginTop"
+        android:layout_toEndOf="@+id/analog_clock_ac"
+        android:textColor="@color/black"
+        android:textSize="@dimen/textClockFont" />
+
+    <TextView
+        android:id="@+id/greeting_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/current_time_tc"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="10dp"
+        android:layout_toEndOf="@+id/analog_clock_ac"
+        android:fontFamily="sans-serif-condensed-light"
+        android:textColor="@color/black"
+        android:textSize="@dimen/textviewFont"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/first_launch_time_bt"
+        android:layout_width="@dimen/buttonWidth"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/greeting_tv"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="@dimen/ButtonMarginStart"
+        android:layout_marginTop="@dimen/ButtonMarginTop"
+        android:background="@drawable/button"
+        android:text="@string/first_launch_time"
+        android:textColor="@color/white"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/no_of_launch_bt"
+        android:layout_width="@dimen/buttonWidth"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/first_launch_time_bt"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="@dimen/Button2MarginStart"
+        android:layout_toEndOf="@+id/first_launch_time_bt"
+        android:background="@drawable/button"
+        android:text="@string/no_of_launch"
+        android:textColor="@color/white"
+        android:textStyle="bold"/>
+
+
+</RelativeLayout>

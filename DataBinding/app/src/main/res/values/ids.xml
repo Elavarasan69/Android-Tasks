@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="firstname_tv" type="id" />
+    <item name="lastname_tv" type="id" />
+    <item name="age_tv" type="id" />
+    <item name="graduation_tv" type="id" />
+</resources>

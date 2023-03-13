@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">SharedPreferencesSample</string>
+    <string name="first_launch_time">First Launch Time</string>
+    <string name="no_of_launch">No of Launch</string>
+</resources>

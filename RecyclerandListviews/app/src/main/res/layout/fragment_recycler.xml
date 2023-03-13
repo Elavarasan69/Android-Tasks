@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    tools:context=".RecyclerFragment">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler_view"
+        android:layout_width="@dimen/recyclerView_width"
+        android:layout_height="@dimen/recyclerView_height"
+        android:layout_marginTop="@dimen/recyclerView_marginTop"
+        tools:listitem="@layout/card_view_design" />
+</FrameLayout>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#8BC34A"
+    tools:context=".ImplicitIntentActivity">
+
+    <Button
+        android:id="@+id/open_browser_bn"
+        android:layout_width="@dimen/dp1"
+        android:layout_height="@dimen/dp2"
+        android:text="@string/open_browser_bn"
+        android:layout_marginTop="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.194"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <Button
+        android:id="@+id/open_dialpad_bn"
+        android:layout_width="@dimen/dp3"
+        android:layout_height="@dimen/dp4"
+        android:layout_marginStart="@dimen/dp5"
+        android:layout_marginTop="4dp"
+        android:text="@string/open_dialpad_bn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.657"
+        app:layout_constraintStart_toStartOf="@id/open_browser_bn"
+        app:layout_constraintTop_toTopOf="@id/open_browser_bn" />
+
+    <Button
+        android:id="@+id/open_google_map_bn"
+        android:layout_width="@dimen/dp6"
+        android:layout_height="@dimen/dp7"
+        android:layout_marginStart="@dimen/dp8"
+        android:text="@string/open_google_map_bn"
+        app:layout_constraintBottom_toBottomOf="@id/open_browser_bn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.707"
+        app:layout_constraintStart_toStartOf="@id/open_browser_bn"
+        app:layout_constraintTop_toBottomOf="@+id/open_dialpad_bn" />
+
+</android.support.constraint.ConstraintLayout>

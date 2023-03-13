@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#7CB342"
+    tools:context=".ExplicitIntentActivity">
+
+    <Button
+        android:id="@+id/launch_activity_bn"
+        android:layout_width="@dimen/dp9"
+        android:layout_height="@dimen/dp10"
+        android:layout_marginStart="@dimen/dp11"
+        android:background="#D8D0D2DC"
+        android:text="@string/launch_activity_bn"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.06"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="DuplicateSpeakableTextCheck" />
+
+    <Button
+        android:id="@+id/launch_inplicit_intent_activity_bn"
+        android:layout_width="@dimen/dp12"
+        android:layout_height="@dimen/dp13"
+        android:layout_marginEnd="@dimen/dp14"
+        android:background="#D8D0D2DC"
+        android:text="@string/launch_inplicit_intent_activity_bn"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/launch_activity_bn"
+        app:layout_constraintVertical_bias="0.013" />
+</android.support.constraint.ConstraintLayout>

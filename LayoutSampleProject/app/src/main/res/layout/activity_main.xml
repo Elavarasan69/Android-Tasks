@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/night"
+            tools:context=".MainActivity"
+            tools:ignore="SpeakableTextPresentCheck">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+
+                <TextView
+                    android:id="@+id/app_name_tv"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:background="@color/mahogany"
+                    android:text="@string/name"
+                    android:textColor="@color/platinum"
+                    android:textSize="30sp"
+                    android:textStyle="bold"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    tools:ignore="MissingConstraints" />
+
+                <HorizontalScrollView
+                    android:id="@+id/scrollView1_sv"
+                    android:layout_width="match_parent"
+                    android:layout_height="181dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/app_name_tv"
+                    tools:ignore="SpeakableTextPresentCheck">
+
+                    <LinearLayout
+                        android:id="@+id/layout_1_ll"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:id="@+id/avengers_iv"
+                            android:layout_width="475dp"
+                            android:layout_height="208dp"
+                            app:srcCompat="@drawable/avengers_1"
+                            tools:ignore="ContentDescription" />
+
+                        <ImageView
+                            android:id="@+id/age_iv"
+                            android:layout_width="404dp"
+                            android:layout_height="match_parent"
+                            android:contentDescription="@string/avengers_2"
+                            app:srcCompat="@drawable/age_of_ultron" />
+
+                        <ImageView
+                            android:id="@+id/infinity_iv"
+                            android:layout_width="400dp"
+                            android:layout_height="match_parent"
+                            app:srcCompat="@drawable/infinity_war"
+                            tools:ignore="ContentDescription" />
+
+                        <ImageView
+                            android:id="@+id/enf_iv"
+                            android:layout_width="385dp"
+                            android:layout_height="match_parent"
+                            app:srcCompat="@drawable/end_game"
+                            tools:ignore="ContentDescription" />
+                    </LinearLayout>
+                </HorizontalScrollView>
+
+                <LinearLayout
+                    android:id="@+id/layout_2_ll"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/mahogany"
+                    android:orientation="horizontal"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/scrollView1_sv">
+
+                    <Button
+                        android:id="@+id/infinity_bn"
+                        style="?android:attr/buttonBarButtonStyle"
+                        android:layout_width="212dp"
+                        android:layout_height="match_parent"
+                        android:text="@string/infinity_saga"
+                        android:textColor="@color/platinum"
+                        tools:ignore="TextContrastCheck" />
+
+                    <Button
+                        android:id="@+id/multi_bn"
+                        style="?android:attr/buttonBarButtonStyle"
+                        android:layout_width="199dp"
+                        android:layout_height="match_parent"
+                        android:text="@string/Multiverse"
+                        android:textColor="@color/platinum"
+                        tools:ignore="TextContrastCheck" />
+
+                </LinearLayout>
+
+                <HorizontalScrollView
+                    android:id="@+id/scrollView2_sv"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/layout_2_ll"
+                    tools:ignore="SpeakableTextPresentCheck">
+
+                    <LinearLayout
+                        android:id="@+id/layout_3_ll"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:id="@+id/cap_iv"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            app:srcCompat="@drawable/captain_america"
+                            tools:ignore="ContentDescription" />
+
+                        <ImageView
+                            android:id="@+id/iron_iv"
+                            android:layout_width="88dp"
+                            android:layout_height="match_parent"
+                            app:srcCompat="@drawable/ironman"
+                            tools:ignore="ContentDescription" />
+
+                        <ImageView
+                            android:id="@+id/thor_iv"
+                            android:layout_width="84dp"
+                            android:layout_height="match_parent"
+                            app:srcCompat="@drawable/thor"
+                            tools:ignore="ContentDescription" />
+
+                        <ImageView
+                            android:id="@+id/hullk_iv"
+                            android:layout_width="81dp"
+                            android:layout_height="150dp"
+                            app:srcCompat="@drawable/hulk_1"
+                            tools:ignore="ContentDescription" />
+
+                        <ImageView
+                            android:id="@+id/hakwye_iv"
+                            android:layout_width="81dp"
+                            android:layout_height="150dp"
+                            app:srcCompat="@drawable/hawkye"
+                            tools:ignore="ContentDescription" />
+
+                        <ImageView
+                            android:id="@+id/black_widow_iv"
+                            android:layout_width="81dp"
+                            android:layout_height="150dp"
+                            app:srcCompat="@drawable/blackwidow"
+                            tools:ignore="ContentDescription" />
+
+                    </LinearLayout>
+                </HorizontalScrollView>
+
+                <TableLayout
+                    android:id="@+id/table_tl"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/scrollView2_sv"
+                    tools:ignore="MissingConstraints">
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <ImageView
+                            android:id="@+id/ironman_1_iv"
+                            android:layout_width="91dp"
+                            android:layout_height="match_parent"
+                            android:src="@drawable/ironman_1"
+                            tools:ignore="ContentDescription" />
+
+                        <ImageView
+                            android:id="@+id/captain_america_1_iv"
+                            android:layout_width="83dp"
+                            android:layout_height="match_parent"
+                            android:src="@drawable/captain_america_1"
+                            tools:ignore="ContentDescription,ImageContrastCheck" />
+
+                        <ImageView
+                            android:id="@+id/thor_1_iv"
+                            android:layout_width="62dp"
+                            android:layout_height="match_parent"
+                            android:src="@drawable/thor_1"
+                            tools:ignore="ContentDescription" />
+
+                        <ImageView
+                            android:id="@+id/hull_1_iv"
+                            android:layout_width="93dp"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/incredible_hulk"
+                            tools:ignore="ContentDescription" />
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <ImageView
+                            android:id="@+id/ironman_2_iv"
+                            android:layout_width="81dp"
+                            android:layout_height="match_parent"
+                            android:src="@drawable/ironman_2"
+                            tools:ignore="ContentDescription" />
+
+                        <ImageView
+                            android:id="@+id/captain_america_2_iv"
+                            android:layout_width="107dp"
+                            android:layout_height="164dp"
+                            android:src="@drawable/captain_america_2"
+                            tools:ignore="ContentDescription" />
+
+                        <ImageView
+                            android:id="@+id/thor_2_iv"
+                            android:layout_width="107dp"
+                            android:layout_height="164dp"
+                            android:src="@drawable/thor_2"
+                            tools:ignore="ContentDescription" />
+
+                        <ImageView
+                            android:id="@+id/guardians_iv"
+                            android:layout_width="107dp"
+                            android:layout_height="164dp"
+                            android:src="@drawable/guardians"
+                            tools:ignore="ContentDescription,ImageContrastCheck" />
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <ImageView
+                            android:id="@+id/ironman_3_iv"
+                            android:layout_width="81dp"
+                            android:layout_height="164dp"
+                            android:src="@drawable/ironman_3"
+                            tools:ignore="ContentDescription" />
+
+                        <ImageView
+                            android:id="@+id/captain_america_3_iv"
+                            android:layout_width="107dp"
+                            android:layout_height="164dp"
+                            android:src="@drawable/civil_war"
+                            tools:ignore="ContentDescription,ImageContrastCheck" />
+
+                        <ImageView
+                            android:id="@+id/thor_3_iv"
+                            android:layout_width="107dp"
+                            android:layout_height="164dp"
+                            android:src="@drawable/thor_3"
+                            tools:ignore="ContentDescription" />
+
+                        <ImageView
+                            android:id="@+id/strange_iv"
+                            android:layout_width="107dp"
+                            android:layout_height="164dp"
+                            android:src="@drawable/doctor"
+                            tools:ignore="ContentDescription" />
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <ImageView
+                            android:id="@+id/ant_man_1_iv"
+                            android:layout_width="81dp"
+                            android:layout_height="164dp"
+                            android:src="@drawable/ant_man"
+                            tools:ignore="ContentDescription" />
+
+                        <ImageView
+                            android:id="@+id/captain_marvel_iv"
+                            android:layout_width="107dp"
+                            android:layout_height="164dp"
+                            android:src="@drawable/captainmarvel"
+                            tools:ignore="ContentDescription" />
+
+                        <ImageView
+                            android:id="@+id/guardians_2_iv"
+                            android:layout_width="107dp"
+                            android:layout_height="164dp"
+                            android:src="@drawable/guardians_2"
+                            tools:ignore="ContentDescription" />
+
+                        <ImageView
+                            android:id="@+id/ant_man_2_iv"
+                            android:layout_width="107dp"
+                            android:layout_height="164dp"
+                            android:src="@drawable/antman_2"
+                            tools:ignore="ContentDescription" />
+                    </TableRow>
+                </TableLayout>
+
+                <ImageView
+                    android:id="@+id/marvel_iv"
+                    android:layout_width="499dp"
+                    android:layout_height="213dp"
+                    android:src="@drawable/marvel"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/table_tl"
+                    tools:ignore="ContentDescription" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </ScrollView>
+
+    </androidx.core.widget.NestedScrollView>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

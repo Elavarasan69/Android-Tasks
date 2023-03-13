@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Lollipop App</string>
+    <string name="welcome">Welcome to the Lollipop page</string>
+    <string name="api">Android API: 22</string>
+    <string name="release_date">Release Date : 04 November 2014</string>
+    <string name="highlight">Highlighted Features: \n\n *Support for 64-bit CPUs.\n *Support for print previews.\n *Refreshed lock screen.\n *Widgets are no longer supporting.</string>
+</resources>

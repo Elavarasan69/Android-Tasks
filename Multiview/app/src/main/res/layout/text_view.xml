@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/card_view_design_margin"
+    app:cardCornerRadius="@dimen/cardView_radius"
+    app:cardElevation="@dimen/card_elevation"
+    android:backgroundTint="@color/iron_grey">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="@dimen/relative_layout_padding">
+
+        <TextView
+            android:id="@+id/title_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="@dimen/textView_marginStart"
+            android:layout_marginTop="@dimen/shapeableImageView_marginTop"
+            android:text="Title"
+            android:textSize="@dimen/textView_fontSize_1"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/description_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/title_tv"
+            android:layout_alignStart="@+id/title_tv"
+            android:layout_marginTop="@dimen/textView_marginTop2"
+            android:text="Description"
+            android:textSize="@dimen/textView_fontSize_2" />
+
+        <ImageButton
+            android:id="@+id/delete_ib"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/description_tv"
+            android:layout_alignParentEnd="true"
+            android:src="@drawable/icons8_trash_50" />
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

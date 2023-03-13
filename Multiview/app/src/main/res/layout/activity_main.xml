@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/app_background"
+    tools:context=".MainActivity">
+
+    <FrameLayout
+        android:id="@+id/fragment_layout"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/frameLayout_height" />
+
+    <Button
+        android:id="@+id/recycler_bt"
+        style="?attr/materialButtonOutlinedStyle"
+        android:layout_width="@dimen/button_width"
+        android:layout_height="@dimen/button_height"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginBottom="30dp"
+        android:text="@string/recycler_view"
+        android:textColor="@color/cream_white"
+        app:strokeColor="@color/cream_white" />
+
+    <Button
+        android:id="@+id/list_bt"
+        style="?attr/materialButtonOutlinedStyle"
+        android:layout_width="@dimen/button_width"
+        android:layout_height="@dimen/button_height"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="@dimen/button_margin"
+        android:layout_marginBottom="@dimen/button_margin"
+        android:text="@string/list_view"
+        android:textColor="@color/cream_white"
+        app:strokeColor="@color/cream_white" />
+
+</RelativeLayout>

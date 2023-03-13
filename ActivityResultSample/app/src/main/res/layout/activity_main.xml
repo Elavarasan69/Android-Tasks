@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".MainActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/tool_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/pink"
+        app:title="ActivityResultSample"
+        app:titleTextColor="@color/white"/>
+
+    <TextView
+        android:id="@+id/choose_photo_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/choose_photo_tv_marginTop"
+        android:layout_below="@+id/tool_bar"
+        android:text="@string/choose_photo"
+        android:textColor="@color/white"
+        android:textSize="@dimen/choose_photo_tv_textSize"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/image_picker"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/image_picker_height"
+        android:layout_below="@+id/choose_photo_tv"
+        android:layout_marginTop="@dimen/image_picker_marginTop"
+        android:src="@drawable/placeholder" />
+
+    <ImageView
+        android:id="@+id/camera_iv"
+        android:layout_width="@dimen/button_width"
+        android:layout_height="@dimen/button_height"
+        android:layout_below="@+id/image_picker"
+        android:layout_marginStart="@dimen/camera_bt_marginStart"
+        android:layout_marginTop="@dimen/camera_bt_marginTop"
+        android:src="@drawable/ic_baseline_camera_alt_24" />
+
+    <ImageView
+        android:id="@+id/gallery_iv"
+        android:layout_width="@dimen/button_width"
+        android:layout_height="@dimen/button_height"
+        android:layout_below="@+id/image_picker"
+        android:layout_marginStart="@dimen/gallery_bt_marginStart"
+        android:layout_marginTop="@dimen/gallery_bt_marginTop"
+        android:layout_toEndOf="@+id/camera_iv"
+        android:src="@drawable/ic_baseline_insert_photo_24" />
+
+    <TextView
+        android:id="@+id/camera_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/camera_iv"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="@dimen/camera_tv_marginStart"
+        android:text="@string/camera"
+        android:textColor="@color/white"
+        android:textSize="22sp" />
+
+    <TextView
+        android:id="@+id/gallery_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/gallery_iv"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="@dimen/gallery_tv_marginStart"
+        android:layout_marginEnd="@dimen/gallery_tv_marginEnd"
+        android:text="@string/gallery"
+        android:textColor="@color/white"
+        android:textSize="@dimen/text_view_textSize" />
+
+
+</RelativeLayout>

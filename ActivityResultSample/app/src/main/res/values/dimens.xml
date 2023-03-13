@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="choose_photo_tv_marginTop">25dp</dimen>
+    <dimen name="choose_photo_tv_textSize">25sp</dimen>
+    <dimen name="image_picker_height">350dp</dimen>
+    <dimen name="image_picker_marginTop">25dp</dimen>
+    <dimen name="button_width">75dp</dimen>
+    <dimen name="button_height">75dp</dimen>
+    <dimen name="camera_bt_marginStart">80dp</dimen>
+    <dimen name="camera_bt_marginTop">20dp</dimen>
+    <dimen name="gallery_bt_marginStart">101dp</dimen>
+    <dimen name="gallery_bt_marginTop">20dp</dimen>
+    <dimen name="camera_tv_marginStart">79dp</dimen>
+    <dimen name="gallery_tv_marginStart">80dp</dimen>
+    <dimen name="gallery_tv_marginEnd">83dp</dimen>
+    <dimen name="text_view_textSize">22sp</dimen>
+</resources>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="scrollbar" >12dp</dimen>
+    <dimen name="margin_top1">32dp</dimen>
+    <dimen name="margin_End1">125dp</dimen>
+    <dimen name="title">25sp</dimen>
+    <dimen name="box_radius">25dp</dimen>
+    <dimen name="box_width">249dp</dimen>
+    <dimen name="box_height">60dp</dimen>
+    <dimen name="margin_top2">20dp</dimen>
+</resources>

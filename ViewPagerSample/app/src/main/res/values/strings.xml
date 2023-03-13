@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">ViewPagerSample</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="TITLE">ViewPager Sampler</string>
+    <string name="red">RED</string>
+    <string name="green">GREEN</string>
+    <string name="blue">BLUE</string>
+    <string name="brown">BROWN</string>
+    </resources>

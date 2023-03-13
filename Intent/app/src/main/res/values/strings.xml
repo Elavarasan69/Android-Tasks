@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">IntentSampleProject</string>
+    <string name="launch_activity_bn">Launch Activity</string>
+    <string name="launch_inplicit_intent_activity_bn">Launch Inplicit Intent Activity</string>
+    <string name="detail_activity_tv">Detail Activity</string>
+    <string name="open_google_map_bn">Open Google Map</string>
+    <string name="open_browser_bn">Open Browser</string>
+    <string name="open_dialpad_bn">Open Dialpad</string>
+</resources>

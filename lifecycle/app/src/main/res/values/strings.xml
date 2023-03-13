@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">lifecycle</string>
+    <string name="launch_second_activity">Launch Second Activity</string>
+    <string name="launch_first_activity">Launch First Activity</string>
+    <string name="create">onCreate</string>
+    <string name="start">onStart</string>
+    <string name="resume">onResume</string>
+    <string name="pause">onPause</string>
+    <string name="stop">onStop</string>
+    <string name="destroy">OnDestroy</string>
+    <string name="restart">onRestart</string>
+</resources>

@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">ResolutionApp</string>
+    <string name="welcome_to_my_application">Captain America (Steve Rogers)</string>
+    <string name="click_here">Click Here</string>
+    <string name="Go_back">Go Back</string>
+    <string name="Captain_america_movie_list">Captain America Movie List</string>
+</resources>

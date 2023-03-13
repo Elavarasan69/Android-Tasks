@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">UserDetailSample</string>
+    <string name="age">Age</string>
+    <string name="female">Female</string>
+    <string name="male">Male</string>
+    <string name="last_name">Last Name</string>
+    <string name="middle_name">Middle Name</string>
+    <string name="first_name">First Name</string>
+    <string name="phone_number">Phone number</string>
+    <string name="email_id">Email ID</string>
+    <string name="phone_prefix">+91</string>
+    <string name="percentage">Marks in Percentage</string>
+    <string name="submit">Submit</string>
+    <string name="yes">yes</string>
+    <string name="No">no</string>
+    <string name="willing_to_relocate">Willing to relocate</string>
+    <string name="gender">Gender</string>
+    <string name="degree">Select Degree</string>
+    <string name="year">Select year</string>
+    <string name="state">Select State</string>
+    <string name="title">Enter the details here</string>
+    <string name="user_name">User name</string>
+    <string name="user_age">user age</string>
+    <string name="user_percentage">User Percentage</string>
+    <string name="user_state">user State</string>
+    <string name="user_email">user Email</string>
+    <string name="user_phone">user phone</string>
+    <string name="user_graduation_detail">user Graduation Detail</string>
+    <string name="the_details_you_entered">The Details You Entered</string>
+    <string name="user_willingness">user Willingness</string>
+    <string name="user_graduation_year">user Graduation year</string>
+    <string name="user_gender">user Gender</string>
+</resources>
